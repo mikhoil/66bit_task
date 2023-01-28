@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { useLocation } from 'react-router-dom';
-import ThemeContext from '../Layout/ThemeContext';
+import ThemeContext from '../../contexts/ThemeContext';
 
 export const Header = () => {
     const [theme] = useContext(ThemeContext);

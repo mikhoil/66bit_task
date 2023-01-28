@@ -3,7 +3,7 @@ import { New } from '../../components/New/New';
 import { INew } from '../../types';
 import axios from '../../axios';
 import PullToRefresh from 'react-simple-pull-to-refresh';
-import ThemeContext from '../../components/Layout/ThemeContext';
+import ThemeContext from '../../contexts/ThemeContext';
 import InfiniteScroll from 'react-infinite-scroll-component';
 
 export const News = () => {

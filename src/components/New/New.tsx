@@ -1,6 +1,6 @@
 import { FC, useContext } from 'react';
 import { INew } from '../../types';
-import ThemeContext from '../Layout/ThemeContext';
+import ThemeContext from '../../contexts/ThemeContext';
 import dayjs from 'dayjs';
 
 export const New: FC<Omit<INew, 'id'>> = ({

@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from 'react';
 import axios from '../../axios';
-import ThemeContext from '../../components/Layout/ThemeContext';
+import ThemeContext from '../../contexts/ThemeContext';
 import { ITheme } from '../../types';
 
 export const Themes = () => {
